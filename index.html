@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#222044">
+    <title>Michal Hajek — VoIP, DevOps &amp; AI</title>
+    <meta name="description" content="Michal Hajek, freelance VoIP and DevOps engineer working with Daktela. High availability, Linux, AI voicebots, Callforge and Calltrace.">
+    <link rel="canonical" href="https://hajekmi.github.io/">
+    <link rel="alternate" hreflang="en" href="https://hajekmi.github.io/">
+    <link rel="alternate" hreflang="cs" href="https://hajekmi.github.io/cs/">
+    <link rel="alternate" hreflang="x-default" href="https://hajekmi.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Michal Hajek — VoIP, DevOps &amp; AI">
+    <meta property="og:description" content="Voice. Infrastructure. Intelligence. A look at my work in VoIP, high availability, Linux and AI.">
+    <meta property="og:url" content="https://hajekmi.github.io/">
+    <meta property="og:image" content="https://hajekmi.github.io/assets/images/github-avatar.png">
+    <meta property="og:image:alt" content="Michal Hajek — DevOps SipOps logo">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:locale:alternate" content="cs_CZ">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/png" href="/assets/images/github-avatar.png">
+    <link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/main.js" defer></script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Person","name":"Michal Hajek","url":"https://hajekmi.github.io/","image":"https://hajekmi.github.io/assets/images/github-avatar.png","jobTitle":"Freelance VoIP & DevOps Engineer","sameAs":["https://github.com/hajekmi","https://www.linkedin.com/in/michalhajekdevops"],"knowsAbout":["VoIP","SIP","WebRTC","High availability","Kamailio","Asterisk","RTPengine","Linux","AI voicebots"]}
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/" aria-label="Michal Hajek — home">
+          <img src="/assets/images/github-avatar.png" alt="Michal Hajek — DevOps SipOps" width="460" height="460" fetchpriority="high">
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span>Menu</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#expertise">Expertise</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+        </nav>
+        <nav class="language-switch" aria-label="Language">
+          <a href="/" lang="en" hreflang="en" aria-current="page" data-language-link>EN</a>
+          <span aria-hidden="true">/</span>
+          <a href="/cs/" lang="cs" hreflang="cs" aria-label="Česky" data-language-link>CZ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container" id="home" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line" aria-hidden="true"></span> Michal Hajek / Independent engineer</p>
+          <h1 id="hero-heading">Voice.<br>Infrastructure.<br><span>Intelligence.</span></h1>
+          <p class="hero-description">I'm a freelance VoIP &amp; DevOps engineer. I build resilient voice infrastructure, tune Linux systems, and bring AI into the conversation.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6 18 18M6 18h12V6"/></svg></span></a>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+          </div>
+          <p class="collaboration">Working with <a href="https://daktela.com/" target="_blank" rel="noopener noreferrer">Daktela <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a> on voice infrastructure.</p>
+        </div>
+        <figure class="hero-visual" aria-labelledby="diagram-caption">
+          <div class="diagram-topline"><span>VOICE / SYSTEMS</span><span aria-hidden="true">[ HA ]</span></div>
+          <svg class="network-diagram" viewBox="0 0 480 440" aria-hidden="true">
+            <defs>
+              <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="currentColor" opacity=".18"/></pattern>
+            </defs>
+            <rect width="480" height="440" fill="url(#grid)"/>
+            <g fill="none" stroke="currentColor" stroke-width="1.5" opacity=".24">
+              <circle cx="240" cy="220" r="154"/>
+              <circle cx="240" cy="220" r="110" stroke-dasharray="3 8"/>
+              <path d="M85 220h310M240 65v310"/>
+            </g>
+            <g fill="none" stroke="#ed5b3b" stroke-width="2.5">
+              <path d="M98 132 240 220 383 128M240 220 385 310M240 220 90 315"/>
+              <path d="M240 100v120" stroke-dasharray="5 6"/>
+            </g>
+            <g fill="#f8f7f4" stroke="currentColor" stroke-width="1.5">
+              <circle cx="98" cy="132" r="22"/><circle cx="383" cy="128" r="22"/>
+              <circle cx="385" cy="310" r="22"/><circle cx="90" cy="315" r="22"/>
+            </g>
+            <g fill="#ed5b3b"><circle cx="98" cy="132" r="5"/><circle cx="383" cy="128" r="5"/><circle cx="385" cy="310" r="5"/><circle cx="90" cy="315" r="5"/></g>
+            <rect x="174" y="173" width="132" height="94" rx="9" fill="#222044"/>
+            <g fill="#fff" text-anchor="middle" font-family="'Space Grotesk', sans-serif">
+              <text x="240" y="211" font-size="12" letter-spacing="3">VOICE CORE</text>
+              <text x="240" y="243" font-size="25" font-weight="600">SIP + RTP</text>
+            </g>
+            <g font-family="'Space Grotesk', sans-serif" font-size="13" text-anchor="middle" fill="currentColor">
+              <rect x="184" y="64" width="112" height="35" rx="4" fill="#fff" stroke="#d9d8e1"/>
+              <text x="240" y="87">Kamailio</text>
+              <rect x="329" y="164" width="106" height="35" rx="4" fill="#fff" stroke="#d9d8e1"/>
+              <text x="382" y="187">Asterisk</text>
+              <rect x="179" y="343" width="122" height="35" rx="4" fill="#fff" stroke="#d9d8e1"/>
+              <text x="240" y="366">RTPengine</text>
+              <text x="89" y="96" font-size="11" letter-spacing="1.5">SIP</text>
+              <text x="84" y="361" font-size="11" letter-spacing="1.5">WebRTC</text>
+              <text x="388" y="356" font-size="11" letter-spacing="1.5">MEDIA</text>
+            </g>
+          </svg>
+          <figcaption id="diagram-caption"><span class="diagram-caption-mark" aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 4v12h13M14 11l5 5-5 5"/></svg></span> Connected across protocols. Designed for resilience.</figcaption>
+        </figure>
+      </section>
+
+      <div class="stack-strip" aria-label="Core technologies">
+        <div class="container stack-inner"><span class="stack-label">The core stack</span><span>Kamailio</span><span>Asterisk</span><span>RTPengine</span><span>Linux</span><span>SIP / WebRTC</span></div>
+      </div>
+
+      <section class="section container about-section" id="about" aria-labelledby="about-heading">
+        <div class="section-label"><span class="section-number">01 /</span> About me</div>
+        <div class="about-content">
+          <h2 id="about-heading">A systems mindset.<br>A voice specialty.</h2>
+          <div class="about-columns">
+            <p>I work with <a class="inline-link" href="https://daktela.com/" target="_blank" rel="noopener noreferrer">Daktela</a> as an independent contractor, designing and operating highly available VoIP infrastructure built around Kamailio, Asterisk and RTPengine.</p>
+            <p>My work spans geographically distributed clusters, routing with latency in mind, and the details of signaling and media. I also write tools to stress these systems, investigate calls, and connect voice with AI.</p>
+          </div>
+          <div class="about-note"><span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 4v12h13M14 11l5 5-5 5"/></svg></span><p>Hands-on work, from architecture and operations to debugging and patches for Asterisk and Kamailio.</p></div>
+        </div>
+      </section>
+
+      <section class="section expertise-section" id="expertise" aria-labelledby="expertise-heading">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="section-label"><span class="section-number">02 /</span> What I do</p><h2 id="expertise-heading">From the packet<br>to the platform.</h2></div>
+            <p class="section-intro">Deep in voice. At home in the infrastructure that makes it work.</p>
+          </div>
+          <div class="expertise-grid">
+            <article class="expertise-item">
+              <div class="item-topline"><span class="mono">01</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M7 9h18v6H7zM7 20h18v6H7zM11 12h1M11 23h1M16 15v5M16 4v5"/></svg></div>
+              <h3>Voice &amp; high availability</h3>
+              <p>HA VoIP clusters, geographic distribution, and call routing with availability and latency in mind. SIP, WebRTC and encrypted media, from signaling to the audio path.</p>
+              <ul class="tags" aria-label="Technologies"><li>Kamailio</li><li>Asterisk</li><li>RTPengine</li><li>SIP / WebRTC</li></ul>
+            </article>
+            <article class="expertise-item">
+              <div class="item-topline"><span class="mono">02</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M8 12h16v13H8zM16 7v5M13 7h6M12 17h1M19 17h1M12 22h8M4 16v5M28 16v5"/></svg></div>
+              <h3>AI voicebots &amp; agents</h3>
+              <p>Building voicebots and bringing AI into telephony. Running Hermes agents and using Claude Code and Codex agents for development and automation.</p>
+              <ul class="tags" aria-label="Technologies"><li>Voicebots</li><li>Hermes</li><li>Claude Code</li><li>Codex</li></ul>
+            </article>
+            <article class="expertise-item">
+              <div class="item-topline"><span class="mono">03</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 7h20v18H6zM10 12l4 4-4 4M17 20h5"/></svg></div>
+              <h3>Linux &amp; performance</h3>
+              <p>Building optimized Linux virtual machines, tuning memory with zram and zswap, and working on systems and tools designed for demanding workloads.</p>
+              <ul class="tags" aria-label="Technologies"><li>Linux</li><li>Virtual machines</li><li>zram</li><li>zswap</li></ul>
+            </article>
+            <article class="expertise-item">
+              <div class="item-topline"><span class="mono">04</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M12 5h8v7h-8zM3 22h8v7H3zM21 22h8v7h-8zM16 12v5M7 22v-5h18v5"/></svg></div>
+              <h3>Networks &amp; integrations</h3>
+              <p>Connecting AudioCodes, Microsoft Teams, Webex and Gamma. Operating IPsec/IKEv2 for Apple devices, WireGuard on MikroTik, and configuration profiles for macOS, iOS and iPadOS.</p>
+              <ul class="tags" aria-label="Technologies"><li>IPsec / IKEv2</li><li>WireGuard</li><li>MikroTik</li><li>Apple profiles</li></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+        <div class="container">
+          <div class="section-heading">
+            <div><p class="section-label"><span class="section-number">03 /</span> Selected projects</p><h2 id="projects-heading">Build it. Stress it.<br>Understand it.</h2></div>
+            <p class="section-intro">Two tools I build for the demanding side of voice infrastructure.</p>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card" id="callforge">
+              <div class="project-visual forge-visual" aria-hidden="true">
+                <div class="visual-topline"><span>SIP / MEDIA SCENARIOS</span><span><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></div>
+                <div class="forge-diagram"><span class="endpoint">A</span><div class="media-paths"><span>→ → → → →</span><span>← ← ← ← ←</span><span>→ → → → →</span></div><span class="endpoint">B</span></div>
+                <div class="visual-bottomline"><span>GENERATE</span><span>COORDINATE</span><span>VERIFY</span></div>
+              </div>
+              <div class="project-content">
+                <p class="project-category">Distributed load testing</p>
+                <h3>Callforge<span class="project-dot" aria-hidden="true">.</span></h3>
+                <p>A distributed SIP and media traffic generator for testing VoIP infrastructure under load. Two coordinated endpoints run defined scenarios and collect results for signaling and media.</p>
+                <ul class="project-points"><li>Scenario-driven calls and registrations</li><li>RTP, SRTP and WebRTC media scenarios</li><li>Per-call, per-direction packet-loss evidence</li></ul>
+                <ul class="tags" aria-label="Technologies"><li>SIP</li><li>RTP / SRTP</li><li>Distributed A/B</li></ul>
+                <a class="project-link" href="mailto:michal@hajek.net?subject=Callforge">Talk about Callforge <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+              </div>
+            </article>
+            <article class="project-card" id="calltrace">
+              <div class="project-visual trace-visual" aria-hidden="true">
+                <div class="visual-topline"><span>SIGNAL / MEDIA EVIDENCE</span><span><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 12c2-7 4-7 6 0s4 7 6 0 4-7 6 0"/></svg></span></div>
+                <div class="trace-diagram"><span>SIP</span><div class="trace-track"><i></i><i></i><i></i><i></i><i></i><i></i></div><span>RTP</span><div class="trace-track"><i></i><i></i><i></i><i></i><i></i><i></i></div><span>RTCP</span><div class="trace-track"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+                <div class="visual-bottomline"><span>CAPTURE</span><span>CORRELATE</span><span>INVESTIGATE</span></div>
+              </div>
+              <div class="project-content">
+                <p class="project-category">Call diagnostics &amp; evidence</p>
+                <h3>Calltrace<span class="project-dot" aria-hidden="true">.</span></h3>
+                <p>A tool for capturing and correlating SIP signaling and media in busy voice systems. It preserves evidence to investigate interrupted, degraded, one-way or silent calls.</p>
+                <ul class="project-points"><li>Continuous signaling and media capture</li><li>Call correlation and PCAPNG exports</li><li>Diagnostics outside the forwarding path</li></ul>
+                <ul class="tags" aria-label="Technologies"><li>SIP / HEP</li><li>RTP / RTCP</li><li>PCAPNG</li></ul>
+                <a class="project-link" href="mailto:michal@hajek.net?subject=Calltrace">Talk about Calltrace <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section container" id="contact" aria-labelledby="contact-heading">
+        <div class="section-label"><span class="section-number">04 /</span> Get in touch</div>
+        <div class="contact-content">
+          <p class="eyebrow">Voice. Linux. AI. Let's talk.</p>
+          <h2 id="contact-heading">Good systems start<br>with a conversation.</h2>
+          <a class="contact-email" href="mailto:michal@hajek.net">michal@hajek.net <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+          <div class="social-links"><a href="https://github.com/hajekmi" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a><a href="https://www.linkedin.com/in/michalhajekdevops" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-inner"><p>© <span data-year>2026</span> Michal Hajek</p><p>VoIP · DevOps · AI</p><a href="#home">Back to top <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 20V4M6 10l6-6 6 6"/></svg></span></a></div></footer>
+  </body>
+</html>
