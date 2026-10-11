@@ -153,6 +153,16 @@ ul { margin: 0; padding: 0; list-style: none; }
 .project-link > span { font-size: 23px; color: #ff9d80; }
 .project-link:hover { color: #ff9d80; }
 .projects-section a:focus-visible { outline-color: #ff9d80; }
+.workflow-section { background: var(--color-surface); }
+.workflow-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: center; gap: 64px; }
+.workflow-content h2 { margin-top: 24px; }
+.workflow-copy { display: grid; gap: 20px; margin-top: 28px; max-width: 540px; color: var(--color-muted); font-size: 16px; line-height: 1.8; }
+.workflow-steps { display: flex; flex-wrap: wrap; gap: 10px 0; margin: 30px 0 0; padding: 20px 0 0; border-top: 1px solid var(--color-line); list-style: none; font-family: var(--font-mono); font-size: 12px; }
+.workflow-steps li { display: flex; align-items: center; }
+.workflow-steps li + li::before { content: "→"; margin-inline: 16px; color: var(--color-accent); }
+.workflow-visual { min-width: 0; padding: 22px; border: 1px solid var(--color-line); border-radius: 4px; background: var(--color-paper); }
+.workflow-visual img { width: 100%; height: auto; aspect-ratio: 16 / 13; }
+.workflow-visual figcaption { padding-top: 16px; border-top: 1px solid var(--color-line); color: var(--color-muted); font-size: 13px; }
 .contact-section { display: grid; grid-template-columns: 1fr 3fr; gap: 56px; padding-block: 112px; }
 .contact-section > .section-label { padding-top: 6px; }
 .contact-content .eyebrow { color: var(--color-muted); }
@@ -190,6 +200,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .project-visual { padding-inline: 22px; }
   .project-content { padding-inline: 26px; }
   .media-paths { font-size: 18px; }
+  .workflow-grid { gap: 32px; }
 }
 
 @media (max-width: 760px) {
@@ -199,7 +210,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .brand, .brand img { width: 165px; height: 68px; }
   .language-switch { margin-left: auto; padding-left: 8px; border-left: 0; }
   .language-switch a { min-width: 37px; }
-  .site-nav { order: 4; width: 100%; margin-left: 0; justify-content: space-between; gap: 12px; padding-bottom: 14px; }
+  .site-nav { order: 4; width: 100%; margin-left: 0; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; padding-bottom: 14px; }
   .site-nav a { font-size: 13px; }
   .js .menu-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 8px; min-height: 44px; background: transparent; border: 0; font-family: var(--font-mono); font-size: 11px; margin-left: auto; }
   .menu-toggle svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.5; }
@@ -229,6 +240,10 @@ ul { margin: 0; padding: 0; list-style: none; }
   .project-content { padding: 27px; }
   .project-content h3 + p { font-size: 16px; }
   .project-points { font-size: 14px; }
+  .workflow-grid { grid-template-columns: minmax(0, 1fr); gap: 36px; }
+  .workflow-content h2 { margin-top: 20px; }
+  .workflow-copy { max-width: 600px; }
+  .workflow-visual { width: min(100%, 540px); justify-self: center; padding: 18px; }
   .contact-section { padding-block: 70px; }
   .contact-content h2 { margin-top: 16px; }
   .footer-inner { flex-wrap: wrap; gap: 10px 20px; }

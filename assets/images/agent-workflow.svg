@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" fill="none">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#222044" opacity=".12"/>
+    </pattern>
+    <clipPath id="pond"><path d="M51 424c13-32 75-49 157-42 88 8 100-14 188-5 81 8 159 27 183 54 28 32-42 64-142 67-99 3-112-12-201-5C141 500 30 476 51 424Z"/></clipPath>
+  </defs>
+  <rect x="16" y="20" width="608" height="470" rx="8" fill="url(#grid)"/>
+  <circle cx="535" cy="73" r="27" fill="#ed5b3b" opacity=".13"/>
+  <path d="M535 31v-9m0 102v-9m42-42h9m-102 0h9m12-30-7-7m67 67-7-7m7-53 7-7m-67 67-7 7" stroke="#ed5b3b" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="112" y="40" width="378" height="208" rx="9" fill="#f8f7f4" stroke="#222044" stroke-width="2"/>
+  <path d="M112 77h378" stroke="#222044" stroke-width="2"/>
+  <g fill="#222044"><circle cx="132" cy="58" r="3"/><circle cx="145" cy="58" r="3"/><circle cx="158" cy="58" r="3"/></g>
+  <text x="181" y="63" fill="#222044" font-family="monospace" font-size="13" letter-spacing="1.5">VM / ZELLIJ</text>
+  <path d="M456 51h15v14h-15zm4 4h7m-7 5h4" stroke="#222044" stroke-width="1.5"/>
+  <rect x="128" y="92" width="106" height="31" rx="4" fill="#222044"/>
+  <g font-family="monospace" font-size="13" text-anchor="middle">
+    <text x="181" y="112" fill="#ffffff">CODEX</text>
+    <text x="303" y="112" fill="#626172">CLAUDE</text>
+    <text x="420" y="112" fill="#626172">HERMES</text>
+  </g>
+  <path d="M248 126h106m12 0h107" stroke="#e1e0e6" stroke-width="2"/>
+  <rect x="128" y="136" width="346" height="95" rx="4" fill="#222044"/>
+  <g stroke-width="3" stroke-linecap="round">
+    <path d="m146 154 6 5-6 5m14 0h54" stroke="#ed5b3b"/>
+    <path d="M146 182h104m12 0h46m-162 16h57m12 0h93m-162 16h148" stroke="#c2c0d4" opacity=".75"/>
+  </g>
+  <rect x="334" y="151" width="123" height="64" rx="3" stroke="#464360"/>
+  <path d="m347 166 5 5 9-11m-14 24 5 5 9-11" stroke="#ed5b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M374 166h68m-68 18h48m-48 16h61" stroke="#c2c0d4" stroke-width="2" opacity=".75"/>
+
+  <g stroke="#c9472a" stroke-width="2" stroke-linecap="round">
+    <path d="M235 249v17h-70v22m217-39v31h105v14" stroke-dasharray="4 6"/>
+    <circle cx="235" cy="248" r="4" fill="#ffffff"/>
+    <circle cx="382" cy="248" r="4" fill="#ffffff"/>
+  </g>
+
+  <path d="M69 369h263l-25 17H91Z" fill="#e1e0e6" stroke="#222044" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="91" y="281" width="218" height="88" rx="6" fill="#ffffff" stroke="#222044" stroke-width="2"/>
+  <rect x="101" y="291" width="198" height="66" rx="2" fill="#222044"/>
+  <path d="M113 307h33m10 0h34m10 0h35" stroke="#c2c0d4" stroke-width="2"/>
+  <path d="M109 315h44" stroke="#ed5b3b" stroke-width="2"/>
+  <path d="m114 329 5 4-5 4m15 0h51" stroke="#ed5b3b" stroke-width="2" stroke-linecap="round"/>
+  <path d="M114 346h75m14 0h26" stroke="#c2c0d4" stroke-width="2"/>
+  <path d="M176 375h47" stroke="#222044" stroke-width="2" stroke-linecap="round"/>
+
+  <g transform="rotate(8 487 342)">
+    <rect x="422" y="285" width="129" height="105" rx="9" fill="#f8f7f4" stroke="#222044" stroke-width="2"/>
+    <rect x="431" y="294" width="111" height="86" rx="3" fill="#222044"/>
+    <path d="M441 308h23m8 0h25m7 0h26" stroke="#c2c0d4" stroke-width="2"/>
+    <path d="M437 316h32m-28 32h58m-58 12h38" stroke="#c2c0d4" stroke-width="2"/>
+    <path d="m443 330 4 4-4 4m11 0h35M437 316h32" stroke="#ed5b3b" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="486" cy="385" r="2" fill="#222044"/>
+  </g>
+
+  <path d="M51 424c13-32 75-49 157-42 88 8 100-14 188-5 81 8 159 27 183 54 28 32-42 64-142 67-99 3-112-12-201-5C141 500 30 476 51 424Z" fill="#eeedf3"/>
+  <g clip-path="url(#pond)" stroke="#222044" stroke-width="1.5" opacity=".14">
+    <path d="M40 431c43-14 69 8 120 0s70-14 120-4m47-21c37-9 69 11 115 4s83-4 126 11M67 466c50-10 87 7 119 0m149 12c64-12 121 12 199-5M215 486c44-9 72-6 115-3"/>
+  </g>
+
+  <g transform="translate(243 438) rotate(-7)" fill="#222044">
+    <path d="M-78-5h33c22-16 57-18 87-1l20-12-3 17 3 17-20-12C13 20-20 16-45 4h-33Z"/>
+    <path d="m-13-9 12-13 10 13m-5 18 9 13-20-11"/>
+    <circle cx="-33" cy="-2" r="2" fill="#f8f7f4"/>
+  </g>
+  <g transform="translate(432 449) rotate(9)" fill="#222044">
+    <path d="M-70-1c28-16 67-19 98-4l23-20-2 23 14 14-37-8C-1 20-32 10-70-1Z"/>
+    <path d="m-14-11 12-17 14 17m-16 16 13 17-25-14"/>
+    <path d="m-36-1 6-4 6 4 6-4 6 4 6-4 6 4 6-4 6 4" stroke="#c2c0d4" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="-44" cy="-2" r="2" fill="#f8f7f4"/>
+  </g>
+
+  <g stroke="#222044" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M53 430c-4-29-4-51-1-75m3 47c-15-4-23-16-24-29m23 15c10-13 17-18 25-22m493 75c3-37 1-67-2-82m0 41c-10-7-15-17-17-29m18 43c14-12 19-23 22-37"/>
+    <path d="M37 360v-17m15 21v-24m20 32 5-10m493 3-1-22m18 39 5-14" stroke="#c9472a" stroke-width="5"/>
+  </g>
+  <ellipse cx="88" cy="437" rx="27" ry="7" fill="#222044" opacity=".1"/>
+  <path d="M71 429c-4-8 1-19 9-21 0-9 12-9 13-1 10 0 16 12 13 21l8 5H63Z" fill="#f8f7f4" stroke="#222044" stroke-width="2" stroke-linejoin="round"/>
+  <path d="m76 423-8 7m29-7 9 7m-25-9c4 3 8 3 12 0" stroke="#222044" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="84" cy="409" r="2" fill="#222044"/>
+  <circle cx="98" cy="412" r="2" fill="#222044"/>
+  <path d="M107 407c9-3 9-10 0-13m6 17c18-7 18-18 0-24" stroke="#ed5b3b" stroke-width="1.5" stroke-linecap="round"/>
+  <g fill="#626172" font-family="monospace" font-size="13" text-anchor="middle">
+    <text x="200" y="408">MAC / SSH</text>
+    <text x="487" y="412">WEB / TABLET</text>
+  </g>
+</svg>
